@@ -1606,8 +1606,15 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
 </style><style type="text/css">.output_3f46566c1e694c11867f951a912b5d68 .sagecell_messages, .output_3f46566c1e694c11867f951a912b5d68 .sagecell_permalink {display: none;}</style></head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/texme@1.2.2"></script>
+<script src="https://togetherjs.com/togetherjs-min.js"></script>
+
 <div id="main">
-            
+
+            <button id="start-togetherjs" type="button"
+ onclick="TogetherJS(this); return false"
+ data-end-togetherjs-html="End TogetherJS">
+  Start TogetherJS
+</button>
             
             
             <div id="notebook-holder"><div class="nb-notebook"><div class="nb-worksheet"><div class="nb-cell nb-code-cell"><div class="nb-input" style="display: none;"><pre class=" language-sage"><code class=" language-sage" data-language="sage"></code></pre></div>
@@ -1668,5 +1675,6 @@ mjx-stretchy-v mjx-c, mjx-stretchy-h mjx-c {
   enhanceSageCellsWithGlobalAutocomplete();
   window.onload = initializeMarkdownCells;
 </script>
+
 </body>
 </html>
